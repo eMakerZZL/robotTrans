@@ -7,6 +7,9 @@ length = 10;
 width = 5000;
 height = 800;
 
+axis([-length length -width width -height height]);
+view(60,40)
+
 points = zeros(8, 3);
 points(1, :) = [ length / 2 ,  width / 2  ,  height / 2];
 points(2, :) = [ length / 2 , -width / 2  ,  height / 2];
